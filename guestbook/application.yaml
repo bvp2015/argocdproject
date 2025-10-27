@@ -10,8 +10,9 @@ spec:
     project: default
     source:
         path: guestbook
-        repoURL: "https://github.com/bvp2015/argocdproject"
+        repoURL: "https://github.com/bvp2015/argocdproject.git"
         targetRevision: master
     syncPolicy:
         syncOpitons:
             - CreateNamespace=true
+
